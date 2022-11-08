@@ -45,3 +45,41 @@ img#logo {
     color: #171e61;
   
   }
+
+
+
+  @media (max-width: 1024px) {
+ 
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    img#logo{
+      width: 250px;
+      height: 100px;
+      margin-left: -370px;
+    }
+
+    h1 {
+      width: 350px;
+      margin-left: -390px;
+      margin-top: -40px;
+      font-size: 28px;
+    }
+
+  #btn {
+    width: 250px;
+    height: 60px;
+    margin-left: -340px;
+    margin-top: -80px;
+  }
+
+  #teste {
+    width: 250px;
+    margin-left: -97px;
+    margin-top: -20px;
+    font-size: 27px;
+  }
+
+  }  

@@ -43,3 +43,41 @@
     font-family: 'Lato', sans-serif;
     color: #171e61;
 }
+
+
+@media (max-width: 1024px) {
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #result {
+        width: 300px;
+        font-size: 30px;
+        margin-left: 8px;
+    }
+
+    #pontos {
+        font-size: 22px;
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+
+    #result2 {
+        width: 310px;
+        font-size: 26px;
+        margin-top: 70px;
+    }
+
+    #reiniciar {
+        width: 170px;
+        height: 50px;
+        margin-left: 75px;
+        margin-top:100px;
+    }
+
+    #rei{
+        font-size: 25px;
+    }
+}

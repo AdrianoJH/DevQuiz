@@ -52,3 +52,50 @@
   top: 600px;
 
 }
+
+
+@media (max-width: 1024px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #perg {
+    margin-left: -70px;
+    font-size: 15px;
+
+  }
+
+  #question {
+    width: 310px;
+    margin-left: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  #next{
+    width: 150px;
+    height: 40px;
+    margin-left: 85px;
+    margin-top: 50px;
+  }
+
+  #prox {
+    margin-left: -15px;
+    font-size: 25px;
+    margin-top: -2px;
+  }
+
+  #logoP{
+    width: 200px;
+    height: 70px;
+    margin-left: -460px;
+    margin-top: -100px;
+  }
+
+}
+
+
+
