@@ -1,0 +1,33 @@
+.option {
+    width: 500px;
+    height: 50px;
+    margin-left: 445px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    border-radius: 40px;
+    background-color: #ffff;
+    color: #171e61;
+
+}
+
+.option :hover {
+    height: 30px;
+    background-color:#4c5eff;
+    border-radius: 40px;
+}
+
+#opt {
+   padding: 10px;
+}
+
+.correct {
+    background-color: #008111;
+}
+
+.wrong {
+    background-color: #4100b9;
+    opacity: 0.4;
+}

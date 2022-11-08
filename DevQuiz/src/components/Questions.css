@@ -15,7 +15,8 @@
 
 #question {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 10px;
+  line-height: 100px;
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -27,8 +28,8 @@
   display: flex;
   width: 200px;
   height: 50px;
-  margin-top: 250px;
-  margin-left: 610px;
+  margin-top:50px;
+  margin-left: 600px;
   border-radius: 40px;
 
 }
@@ -42,20 +43,12 @@
   color: #171e61;
 }
 
-#opt {
-  text-align: center;
-  font-family: 'Lato',sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 30px;
-  color: #FFFFFF;
-}
 
 #logoP {
   position: absolute;
   width: 367px;
   height: 125px;
-  left: 530px;
-  top: 550px;
+  left: 510px;
+  top: 600px;
 
 }
