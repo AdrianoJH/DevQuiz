@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2? family= Lato & display=swap');
+}
+
+.App {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  background: linear-gradient(180deg, #131e83 0%, #0d0f1b 60%);
+}
+
+@media (max-width: 1024px) {
+ 
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .App {
+    width: 375px;
+  }
+
+}
