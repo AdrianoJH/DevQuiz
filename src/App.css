@@ -7,12 +7,13 @@
 .App {
   position: absolute;
   width: 1366px;
-  height: 768px;
+  height: 100vh;
   background: linear-gradient(180deg, #131e83 0%, #0d0f1b 60%);
+  overflow-x: hidden !important;
 }
 
 @media (max-width: 1024px) {
- 
+
   * {
     margin: 0;
     padding: 0;

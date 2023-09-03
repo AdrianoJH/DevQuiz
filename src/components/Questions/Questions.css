@@ -28,7 +28,7 @@
   display: flex;
   width: 200px;
   height: 50px;
-  margin-top:50px;
+  margin-top:30px;
   margin-left: 600px;
   border-radius: 40px;
 
@@ -46,10 +46,10 @@
 
 #logoP {
   position: absolute;
-  width: 367px;
-  height: 125px;
-  left: 510px;
-  top: 600px;
+  width: 307px;
+  height: 95px;
+  left: 520px;
+  top: 550px;
 
 }
 
