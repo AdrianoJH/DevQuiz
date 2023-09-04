@@ -92,6 +92,9 @@
   }
 
   #next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 40px;
     margin-left: 0;
@@ -101,7 +104,6 @@
   #prox {
     margin-left: 0;
     font-size: 25px;
-    margin-top: -2px;
   }
 
   #logoP {

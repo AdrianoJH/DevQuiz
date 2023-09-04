@@ -1,85 +1,101 @@
 img#logo {
-    position: absolute;
-    width: 500px;
-    height: 150px;
-    left: 400px;
-    top: 40px;
-  
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  left: 400px;
+  top: 40px;
+
+}
+
+h1 {
+  position: absolute;
+  width: 733px;
+  height: 72px;
+  left: 400px;
+  top: 250px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  line-height: 72px;
+  color: #fff;
+}
+
+#btn {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  left: 375px;
+  top: 450px;
+  background: #fff;
+  border-radius: 40px;
+}
+
+#teste {
+  position: absolute;
+  width: 409px;
+  height: 72px;
+  left: 95px;
+  top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 72px;
+  color: #171e61;
+
+}
+
+
+
+@media (max-width: 1024px) {
+
+  * {
+    margin: 0;
+    padding: 0;
   }
-  
-  h1 {
-    position: absolute;
-    width: 733px;
-    height: 72px;
-    left: 400px;
-    top: 250px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    font-style: normal;
-    line-height: 72px;
-    color: #fff;
+
+  .Welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
-  
-  #btn {
-    position: absolute;
-    width: 600px;
+
+  img#logo {
+    position: inherit;
+    width: 250px;
     height: 100px;
-    left: 375px;
-    top: 450px;
-    background: #fff;
-    border-radius: 40px;
-  }
-  
-  #teste {
-    position: absolute;
-    width: 409px;
-    height: 72px;
-    left: 95px;
-    top: 10px;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 72px;
-    color: #171e61;
-  
+    margin-left: 0;
+    margin-top: 20px;
   }
 
-
-
-  @media (max-width: 1024px) {
- 
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    img#logo{
-      width: 250px;
-      height: 100px;
-      margin-left: -370px;
-    }
-
-    h1 {
-      width: 350px;
-      margin-left: -390px;
-      margin-top: -40px;
-      font-size: 28px;
-    }
+  h1 {
+    position: inherit;
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 28px;
+  }
 
   #btn {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 250px;
     height: 60px;
-    margin-left: -340px;
-    margin-top: -80px;
+    margin-left: 0;
+    margin-top: 80px;
   }
 
   #teste {
+    position: inherit;
     width: 250px;
-    margin-left: -97px;
-    margin-top: -20px;
+    margin-left: 0px;
     font-size: 27px;
   }
 
-  }  
+}
